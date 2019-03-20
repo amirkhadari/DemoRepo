@@ -1,37 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21528" started-at="2019-03-05T16:42:23Z" finished-at="2019-03-05T16:42:44Z">
+  <suite name="Guru99 Bank Site Test" duration-ms="96754" started-at="2019-03-19T12:36:12Z" finished-at="2019-03-19T12:37:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21528" started-at="2019-03-05T16:42:23Z" finished-at="2019-03-05T16:42:44Z">
-      <class name="com.G99Bank.qa.Testcases.NewCustomerPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@754ba872]" name="setUp" is-config="true" duration-ms="10609" started-at="2019-03-05T16:42:23Z" finished-at="2019-03-05T16:42:33Z">
+    <test name="Guru99Bank LoginPage test" duration-ms="25208" started-at="2019-03-19T12:36:12Z" finished-at="2019-03-19T12:36:37Z">
+      <class name="com.G99Bank.qa.Testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="setUp" is-config="true" duration-ms="8344" started-at="2019-03-19T12:36:12Z" finished-at="2019-03-19T12:36:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyNewCustomerTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@754ba872]" name="VerifyNewCustomerTitleTest" duration-ms="30" started-at="2019-03-05T16:42:33Z" finished-at="2019-03-05T16:42:33Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="LoginPageTitleTest" duration-ms="378" started-at="2019-03-19T12:36:20Z" finished-at="2019-03-19T12:36:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyNewCustomerTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="81" started-at="2019-03-05T16:42:33Z" finished-at="2019-03-05T16:42:33Z">
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="83" started-at="2019-03-19T12:36:20Z" finished-at="2019-03-19T12:36:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@754ba872]" name="setUp" is-config="true" duration-ms="10575" started-at="2019-03-05T16:42:33Z" finished-at="2019-03-05T16:42:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="setUp" is-config="true" duration-ms="6588" started-at="2019-03-19T12:36:20Z" finished-at="2019-03-19T12:36:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddCustomertextTest()[pri:2, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@754ba872]" name="verifyAddCustomertextTest" duration-ms="100" started-at="2019-03-05T16:42:44Z" finished-at="2019-03-05T16:42:44Z">
+        <test-method status="PASS" signature="G99LogoTest()[pri:2, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="G99LogoTest" duration-ms="672" started-at="2019-03-19T12:36:27Z" finished-at="2019-03-19T12:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G99LogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="91" started-at="2019-03-19T12:36:28Z" finished-at="2019-03-19T12:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="setUp" is-config="true" duration-ms="7414" started-at="2019-03-19T12:36:28Z" finished-at="2019-03-19T12:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logintest()[pri:3, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="logintest" duration-ms="1472" started-at="2019-03-19T12:36:35Z" finished-at="2019-03-19T12:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="115" started-at="2019-03-19T12:36:37Z" finished-at="2019-03-19T12:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.G99Bank.qa.Testcases.LoginPageTest -->
+    </test> <!-- Guru99Bank LoginPage test -->
+    <test name="Guru99Bank HomePage test" duration-ms="46959" started-at="2019-03-19T12:36:37Z" finished-at="2019-03-19T12:37:24Z">
+      <class name="com.G99Bank.qa.Testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="10712" started-at="2019-03-19T12:36:37Z" finished-at="2019-03-19T12:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyHomePageTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="VerifyHomePageTitleTest" duration-ms="52" started-at="2019-03-19T12:36:48Z" finished-at="2019-03-19T12:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="139" started-at="2019-03-19T12:36:48Z" finished-at="2019-03-19T12:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="10482" started-at="2019-03-19T12:36:48Z" finished-at="2019-03-19T12:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserCredTest()[pri:2, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="verifyUserCredTest" duration-ms="116" started-at="2019-03-19T12:36:58Z" finished-at="2019-03-19T12:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCredTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="144" started-at="2019-03-19T12:36:58Z" finished-at="2019-03-19T12:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="11151" started-at="2019-03-19T12:36:58Z" finished-at="2019-03-19T12:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickOnNewCustomerLinkTest()[pri:3, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="ClickOnNewCustomerLinkTest" duration-ms="1317" started-at="2019-03-19T12:37:10Z" finished-at="2019-03-19T12:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnNewCustomerLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="168" started-at="2019-03-19T12:37:11Z" finished-at="2019-03-19T12:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="11096" started-at="2019-03-19T12:37:11Z" finished-at="2019-03-19T12:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickOnEditCustomerLinkTest()[pri:4, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="ClickOnEditCustomerLinkTest" duration-ms="1397" started-at="2019-03-19T12:37:22Z" finished-at="2019-03-19T12:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnEditCustomerLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="160" started-at="2019-03-19T12:37:24Z" finished-at="2019-03-19T12:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.G99Bank.qa.Testcases.HomePageTest -->
+    </test> <!-- Guru99Bank HomePage test -->
+    <test name="Guru99Bank NewCustomerPage test" duration-ms="24546" started-at="2019-03-19T12:37:24Z" finished-at="2019-03-19T12:37:48Z">
+      <class name="com.G99Bank.qa.Testcases.NewCustomerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="setUp" is-config="true" duration-ms="11973" started-at="2019-03-19T12:37:24Z" finished-at="2019-03-19T12:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyNewCustomerTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="VerifyNewCustomerTitleTest" duration-ms="47" started-at="2019-03-19T12:37:36Z" finished-at="2019-03-19T12:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewCustomerTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="tearDown" is-config="true" duration-ms="139" started-at="2019-03-19T12:37:36Z" finished-at="2019-03-19T12:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="setUp" is-config="true" duration-ms="12073" started-at="2019-03-19T12:37:36Z" finished-at="2019-03-19T12:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddCustomertextTest()[pri:2, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="verifyAddCustomertextTest" duration-ms="112" started-at="2019-03-19T12:37:48Z" finished-at="2019-03-19T12:37:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddCustomertextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="77" started-at="2019-03-05T16:42:44Z" finished-at="2019-03-05T16:42:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="tearDown" is-config="true" duration-ms="198" started-at="2019-03-19T12:37:48Z" finished-at="2019-03-19T12:37:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.G99Bank.qa.Testcases.NewCustomerPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Guru99Bank NewCustomerPage test -->
+  </suite> <!-- Guru99 Bank Site Test -->
 </testng-results>

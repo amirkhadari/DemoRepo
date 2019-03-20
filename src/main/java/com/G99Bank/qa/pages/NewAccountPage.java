@@ -1,5 +1,7 @@
 package com.G99Bank.qa.pages;
 
-public class NewAccountPage {
+import com.G99Bank.qa.base.TestBase;
+
+public class NewAccountPage extends TestBase{
 
 }

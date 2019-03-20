@@ -23,19 +23,19 @@ public class LoginPageTest extends TestBase{
 		loginp = new LogIn();
 	}
 	
-	@Test()
+	@Test(priority=1)
 	public void LoginPageTitleTest() {
 		String title = loginp.ValidateLogInPageTitle();
 		Assert.assertEquals(title, "Guru99 Bank Home Page");
 	}
 	
-	@Test()
+	@Test(priority=2)
 	public void G99LogoTest() {
 		boolean logo = loginp.ValidateLogo();
 		Assert.assertTrue(logo);
 	}
 	
-	@Test()
+	@Test(priority=3)
 	public void logintest() {
 		homepage = loginp.login(prop.getProperty("userid"), "password");
 	}

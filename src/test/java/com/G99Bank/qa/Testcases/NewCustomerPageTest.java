@@ -31,7 +31,7 @@ public class NewCustomerPageTest extends TestBase{
 	@Test(priority=1)
 	public void VerifyNewCustomerTitleTest() {
 		String title = newcustomer.NewCustomerTitle();
-		//Assert.assertEquals(title,"Guru99 Bank New Customer Entry Page");
+		Assert.assertEquals(title,"Guru99 Bank New Customer Entry Page");
 	}
 	
 	@Test(priority=2)
