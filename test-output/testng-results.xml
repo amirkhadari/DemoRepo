@@ -1,129 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Guru99 Bank Site Test" duration-ms="96754" started-at="2019-03-19T12:36:12Z" finished-at="2019-03-19T12:37:48Z">
+  <suite name="Default suite" duration-ms="50115" started-at="2019-03-28T07:08:06Z" finished-at="2019-03-28T07:08:56Z">
     <groups>
     </groups>
-    <test name="Guru99Bank LoginPage test" duration-ms="25208" started-at="2019-03-19T12:36:12Z" finished-at="2019-03-19T12:36:37Z">
-      <class name="com.G99Bank.qa.Testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="setUp" is-config="true" duration-ms="8344" started-at="2019-03-19T12:36:12Z" finished-at="2019-03-19T12:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="LoginPageTitleTest" duration-ms="378" started-at="2019-03-19T12:36:20Z" finished-at="2019-03-19T12:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="83" started-at="2019-03-19T12:36:20Z" finished-at="2019-03-19T12:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="setUp" is-config="true" duration-ms="6588" started-at="2019-03-19T12:36:20Z" finished-at="2019-03-19T12:36:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="G99LogoTest()[pri:2, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="G99LogoTest" duration-ms="672" started-at="2019-03-19T12:36:27Z" finished-at="2019-03-19T12:36:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- G99LogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="91" started-at="2019-03-19T12:36:28Z" finished-at="2019-03-19T12:36:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="setUp" is-config="true" duration-ms="7414" started-at="2019-03-19T12:36:28Z" finished-at="2019-03-19T12:36:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logintest()[pri:3, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="logintest" duration-ms="1472" started-at="2019-03-19T12:36:35Z" finished-at="2019-03-19T12:36:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.LoginPageTest@754ba872]" name="tearDown" is-config="true" duration-ms="115" started-at="2019-03-19T12:36:37Z" finished-at="2019-03-19T12:36:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.G99Bank.qa.Testcases.LoginPageTest -->
-    </test> <!-- Guru99Bank LoginPage test -->
-    <test name="Guru99Bank HomePage test" duration-ms="46959" started-at="2019-03-19T12:36:37Z" finished-at="2019-03-19T12:37:24Z">
-      <class name="com.G99Bank.qa.Testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="10712" started-at="2019-03-19T12:36:37Z" finished-at="2019-03-19T12:36:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyHomePageTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="VerifyHomePageTitleTest" duration-ms="52" started-at="2019-03-19T12:36:48Z" finished-at="2019-03-19T12:36:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="139" started-at="2019-03-19T12:36:48Z" finished-at="2019-03-19T12:36:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="10482" started-at="2019-03-19T12:36:48Z" finished-at="2019-03-19T12:36:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserCredTest()[pri:2, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="verifyUserCredTest" duration-ms="116" started-at="2019-03-19T12:36:58Z" finished-at="2019-03-19T12:36:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCredTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="144" started-at="2019-03-19T12:36:58Z" finished-at="2019-03-19T12:36:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="11151" started-at="2019-03-19T12:36:58Z" finished-at="2019-03-19T12:37:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ClickOnNewCustomerLinkTest()[pri:3, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="ClickOnNewCustomerLinkTest" duration-ms="1317" started-at="2019-03-19T12:37:10Z" finished-at="2019-03-19T12:37:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnNewCustomerLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="168" started-at="2019-03-19T12:37:11Z" finished-at="2019-03-19T12:37:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="setUp" is-config="true" duration-ms="11096" started-at="2019-03-19T12:37:11Z" finished-at="2019-03-19T12:37:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ClickOnEditCustomerLinkTest()[pri:4, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="ClickOnEditCustomerLinkTest" duration-ms="1397" started-at="2019-03-19T12:37:22Z" finished-at="2019-03-19T12:37:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnEditCustomerLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.HomePageTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="160" started-at="2019-03-19T12:37:24Z" finished-at="2019-03-19T12:37:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.G99Bank.qa.Testcases.HomePageTest -->
-    </test> <!-- Guru99Bank HomePage test -->
-    <test name="Guru99Bank NewCustomerPage test" duration-ms="24546" started-at="2019-03-19T12:37:24Z" finished-at="2019-03-19T12:37:48Z">
+    <test name="Default test" duration-ms="50115" started-at="2019-03-28T07:08:06Z" finished-at="2019-03-28T07:08:56Z">
       <class name="com.G99Bank.qa.Testcases.NewCustomerPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="setUp" is-config="true" duration-ms="11973" started-at="2019-03-19T12:37:24Z" finished-at="2019-03-19T12:37:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="10255" started-at="2019-03-28T07:08:07Z" finished-at="2019-03-28T07:08:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyNewCustomerTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="VerifyNewCustomerTitleTest" duration-ms="47" started-at="2019-03-19T12:37:36Z" finished-at="2019-03-19T12:37:36Z">
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="1806" started-at="2019-03-28T07:08:17Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan sisodia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/01/1997]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Indore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Indore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Madhya Pradesh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[302000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9080706050]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[pavan.sisodia@test.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[pavan123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyNewCustomerTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="tearDown" is-config="true" duration-ms="139" started-at="2019-03-19T12:37:36Z" finished-at="2019-03-19T12:37:36Z">
+        </test-method> <!-- validateNewCustomerForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="76" started-at="2019-03-28T07:08:19Z" finished-at="2019-03-28T07:08:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="setUp" is-config="true" duration-ms="12073" started-at="2019-03-19T12:37:36Z" finished-at="2019-03-19T12:37:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="9934" started-at="2019-03-28T07:08:19Z" finished-at="2019-03-28T07:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddCustomertextTest()[pri:2, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="verifyAddCustomertextTest" duration-ms="112" started-at="2019-03-19T12:37:48Z" finished-at="2019-03-19T12:37:48Z">
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="3014" started-at="2019-03-28T07:08:29Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[babu shekhawat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/01/1990]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Rajasthan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[302017]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9988776655]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[babu.shekhawat@test.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[babu123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCustomertextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@5702b3b1]" name="tearDown" is-config="true" duration-ms="198" started-at="2019-03-19T12:37:48Z" finished-at="2019-03-19T12:37:48Z">
+        </test-method> <!-- validateNewCustomerForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="82" started-at="2019-03-28T07:08:32Z" finished-at="2019-03-28T07:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="8909" started-at="2019-03-28T07:08:32Z" finished-at="2019-03-28T07:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="2716" started-at="2019-03-28T07:08:41Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jagan singh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/10/1995]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amritsar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Amritsar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7778886661]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[jagan.singh@test.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[jagan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewCustomerForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="135" started-at="2019-03-28T07:08:44Z" finished-at="2019-03-28T07:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="9104" started-at="2019-03-28T07:08:44Z" finished-at="2019-03-28T07:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="2996" started-at="2019-03-28T07:08:53Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[roja agarwal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[07/11/1998]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[400110]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7689051234]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[roja.agarwal@test.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[roja123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewCustomerForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="137" started-at="2019-03-28T07:08:56Z" finished-at="2019-03-28T07:08:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.G99Bank.qa.Testcases.NewCustomerPageTest -->
-    </test> <!-- Guru99Bank NewCustomerPage test -->
-  </suite> <!-- Guru99 Bank Site Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
