@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50115" started-at="2019-03-28T07:08:06Z" finished-at="2019-03-28T07:08:56Z">
+  <suite name="Default suite" duration-ms="86340" started-at="2019-04-02T09:25:48Z" finished-at="2019-04-02T09:27:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50115" started-at="2019-03-28T07:08:06Z" finished-at="2019-03-28T07:08:56Z">
+    <test name="Default test" duration-ms="86340" started-at="2019-04-02T09:25:48Z" finished-at="2019-04-02T09:27:14Z">
       <class name="com.G99Bank.qa.Testcases.NewCustomerPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="10255" started-at="2019-03-28T07:08:07Z" finished-at="2019-03-28T07:08:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="setUp" is-config="true" duration-ms="11915" started-at="2019-04-02T09:25:48Z" finished-at="2019-04-02T09:26:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="1806" started-at="2019-03-28T07:08:17Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:19Z">
+        <test-method status="PASS" signature="VerifyNewCustomerTitleTest()[pri:1, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="VerifyNewCustomerTitleTest" duration-ms="84" started-at="2019-04-02T09:26:00Z" finished-at="2019-04-02T09:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewCustomerTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="81" started-at="2019-04-02T09:26:00Z" finished-at="2019-04-02T09:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="setUp" is-config="true" duration-ms="10900" started-at="2019-04-02T09:26:00Z" finished-at="2019-04-02T09:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddCustomertextTest()[pri:2, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="verifyAddCustomertextTest" duration-ms="85" started-at="2019-04-02T09:26:11Z" finished-at="2019-04-02T09:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCustomertextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="82" started-at="2019-04-02T09:26:11Z" finished-at="2019-04-02T09:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="setUp" is-config="true" duration-ms="10644" started-at="2019-04-02T09:26:12Z" finished-at="2019-04-02T09:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="validateNewCustomerForm" duration-ms="3738" started-at="2019-04-02T09:26:22Z" data-provider="getNewCustomerData" finished-at="2019-04-02T09:26:26Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +79,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[pavan.sisodia@test.com]]>
+                <![CDATA[pavan.s@test01.com]]>
               </value>
             </param>
             <param index="9">
@@ -67,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNewCustomerForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="76" started-at="2019-03-28T07:08:19Z" finished-at="2019-03-28T07:08:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="131" started-at="2019-04-02T09:26:26Z" finished-at="2019-04-02T09:26:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="9934" started-at="2019-03-28T07:08:19Z" finished-at="2019-03-28T07:08:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="setUp" is-config="true" duration-ms="10670" started-at="2019-04-02T09:26:26Z" finished-at="2019-04-02T09:26:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="3014" started-at="2019-03-28T07:08:29Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:32Z">
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="validateNewCustomerForm" duration-ms="3794" started-at="2019-04-02T09:26:37Z" data-provider="getNewCustomerData" finished-at="2019-04-02T09:26:41Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +143,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[babu.shekhawat@test.com]]>
+                <![CDATA[babu.s@test01.com]]>
               </value>
             </param>
             <param index="9">
@@ -131,15 +155,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNewCustomerForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="82" started-at="2019-03-28T07:08:32Z" finished-at="2019-03-28T07:08:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="184" started-at="2019-04-02T09:26:41Z" finished-at="2019-04-02T09:26:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="8909" started-at="2019-03-28T07:08:32Z" finished-at="2019-03-28T07:08:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="setUp" is-config="true" duration-ms="14606" started-at="2019-04-02T09:26:41Z" finished-at="2019-04-02T09:26:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="2716" started-at="2019-03-28T07:08:41Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:43Z">
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="validateNewCustomerForm" duration-ms="4170" started-at="2019-04-02T09:26:56Z" data-provider="getNewCustomerData" finished-at="2019-04-02T09:27:00Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +207,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[jagan.singh@test.com]]>
+                <![CDATA[jagan.s@test01.com]]>
               </value>
             </param>
             <param index="9">
@@ -195,15 +219,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNewCustomerForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="135" started-at="2019-03-28T07:08:44Z" finished-at="2019-03-28T07:08:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="178" started-at="2019-04-02T09:27:00Z" finished-at="2019-04-02T09:27:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="setUp" is-config="true" duration-ms="9104" started-at="2019-03-28T07:08:44Z" finished-at="2019-03-28T07:08:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="setUp" is-config="true" duration-ms="10409" started-at="2019-04-02T09:27:00Z" finished-at="2019-04-02T09:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="validateNewCustomerForm" duration-ms="2996" started-at="2019-03-28T07:08:53Z" data-provider="getNewCustomerData" finished-at="2019-03-28T07:08:56Z">
+        <test-method status="PASS" signature="validateNewCustomerForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="validateNewCustomerForm" duration-ms="3557" started-at="2019-04-02T09:27:10Z" data-provider="getNewCustomerData" finished-at="2019-04-02T09:27:14Z">
           <params>
             <param index="0">
               <value>
@@ -247,7 +271,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[roja.agarwal@test.com]]>
+                <![CDATA[roja.a@test01.com]]>
               </value>
             </param>
             <param index="9">
@@ -259,7 +283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNewCustomerForm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="137" started-at="2019-03-28T07:08:56Z" finished-at="2019-03-28T07:08:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.G99Bank.qa.Testcases.NewCustomerPageTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="129" started-at="2019-04-02T09:27:14Z" finished-at="2019-04-02T09:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -35,7 +35,7 @@ public class NewCustomerPageTest extends TestBase{
 		login.login(prop.getProperty("userid"), prop.getProperty("password"));
 		homepage.clickOnNewCustomerLink();
 	}
-	/*@Test(priority=1)
+	@Test(priority=1)
 	public void VerifyNewCustomerTitleTest() {
 		String title = newcustomer.NewCustomerTitle();
 		Assert.assertEquals(title,"Guru99 Bank New Customer Entry Page");
@@ -45,7 +45,7 @@ public class NewCustomerPageTest extends TestBase{
 	public void verifyAddCustomertextTest() {
 		boolean b = newcustomer.AddCustomerText();
 		Assert.assertTrue(b, "add customer text is not displayed");
-	}*/
+	}
 	
 	@DataProvider
 	public Object[][] getNewCustomerData() {
@@ -57,8 +57,8 @@ public class NewCustomerPageTest extends TestBase{
 	public void validateNewCustomerForm(String customername, String gen, String DoB, String Addr, 
 			String CITY, String STATE, String pinnumber, String phonenumber, String mailid, String pd) {
 		
-//		newcustomer.CreateNewCustomer("amirsyed", "m", "22/11/1997", "Jaipur", "Jaipur", "Rajasthan",
-//				"302017", "9065781234", "amir.syed@gmail.com", "amirsyed123");
+		/*newcustomer.CreateNewCustomer("amirsyed", "m", "22/11/1997", "Jaipur", "Jaipur", "Rajasthan",
+				"302017", "9065781234", "amir.syed@gmail.com", "amirsyed123");*/
 		newcustomer.CreateNewCustomer(customername, gen, DoB, Addr, CITY, STATE, pinnumber, phonenumber, mailid, pd);
 		
 	}

@@ -2,18 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
  	<suite name="Guru99 Bank Site Test" >
 		<test name="Guru99Bank LoginPage test">
-			<classes>	
-					<class name="com.G99Bank.qa.Testcases.LoginPageTest"/>	
-           	</classes>	
-		</test>	
-		<test name="Guru99Bank HomePage test">
-			<classes>	
-					<class name="com.G99Bank.qa.Testcases.HomePageTest"/> 	
-           	</classes>	
-		</test>	
-		<test name="Guru99Bank NewCustomerPage test">
-			<classes>	
-					<class name="com.G99Bank.qa.Testcases.NewCustomerPageTest"/> 	
-           	</classes>	
-		</test>	
+			
+			<classes>
+				<class name="com.G99Bank.qa.Testcases.HomePageTest"></class>
+			</classes>
+			
+		</test>
   </suite>					

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.G99Bank.qa.Testcases.NewCustomerPageTest">
+      <class name="com.G99Bank.qa.Testcases.HomePageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="validateNewCustomerForm"/>
+          <include name="verifyUserCredTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.G99Bank.qa.Testcases.NewCustomerPageTest -->
+      </class> <!-- com.G99Bank.qa.Testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
